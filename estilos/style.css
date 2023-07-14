@@ -37,3 +37,13 @@ section#telefone{
 
 
 }
+
+iframe#tela{
+
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 267px;
+    height: 471px;
+
+}
