@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+  height: 100vh;  /* Altura total do navegador*/
+  width: 100vw;  /*Largura total do navegador*/
+  background-color: blueviolet;
+}
+body{
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center ; /* não repetir, alinhamento pelo topo e centralizado*/
+    background-size: cover;
+    background-attachment:fixed
+}
+
+main{
+    height: 100vh;
+    position:relative; /*Pra gente conseguir configurar a centralização*/
+    
+}
+
+section#telefone{
+    position: absolute; /* assim consigo adicionar a posição*/
+    top:50% ;
+    left: 50%;
+    transform: translate(-50%,-50%); /*Essas linhas de 22 a 25 que fazem com que o conteiner fique absoluto no meio*/
+    height: 627px; /*Pra saber a altura e largura que coloca aqui, ver no gimp o tamanho do celular, para que o container fique do mesmo tamanho*/
+    width: 311px;
+    background: url(../imagens/frame-iphone.png)  no-repeat; 
+    
+    /* os dois pontinhos iniciais significam 'voltar uma pasta'*/
+
+
+
+}
